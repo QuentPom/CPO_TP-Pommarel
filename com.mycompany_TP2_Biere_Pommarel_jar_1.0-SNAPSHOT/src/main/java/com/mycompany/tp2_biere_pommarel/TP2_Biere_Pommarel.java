@@ -12,9 +12,9 @@ public class TP2_Biere_Pommarel {
 
     public static void main(String[] args) {
         BouteilleBiere uneBiere = new BouteilleBiere("Cuvée des trolls",
-                7.0, "Dubuisson");
+                7.0, "Dubuisson");//Attribution des ses caractéristique a uneBiere
 
-        uneBiere.lireEtiquette();
+        uneBiere.lireEtiquette();//Lire l'étiquette(les caractéristiques) de uneBierre
         BouteilleBiere autreBiere = new BouteilleBiere("Leffe", 6.6,
                  "Abbaye de Leffe");
         autreBiere.lireEtiquette();
@@ -24,12 +24,12 @@ public class TP2_Biere_Pommarel {
         autre3Biere.lireEtiquette();
         BouteilleBiere autre4Biere = new BouteilleBiere("Guiness", 4.2, "Guiness");
         autre4Biere.lireEtiquette();
-        uneBiere.decapsuler();
+        uneBiere.decapsuler();// On décapsule uneBiere
         autreBiere.decapsuler();
         autre2Biere.decapsuler();
         autre3Biere.decapsuler();
         
-        System.out.println(uneBiere) ;
+        System.out.println(uneBiere) ; //Affichage de la fonction tostring pour uneBiere
         System.out.println(autreBiere) ;
         System.out.println(autre2Biere) ;
         System.out.println(autre3Biere) ;
