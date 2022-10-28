@@ -36,22 +36,22 @@ public class TP_ConvertisseurObJET_Pommarel {
                 else if (a==3){
                        System.out.println("Veuillez mettre la valeur a convertir");
                     int b = sc.nextInt();
-                        res=Monconvertisseur.FarenheitVersCelcius(a);
+                        res=Monconvertisseur.FarenheitVersCelcius(b);
                                                         System.out.println(res);}
                 else if (a==4){
                        System.out.println("Veuillez mettre la valeur a convertir");
                     int b = sc.nextInt();
-                        res=Monconvertisseur.CelciusVersFarenheit(a);
+                        res=Monconvertisseur.CelciusVersFarenheit(b);
                                                         System.out.println(res);}
                 else if (a==5){
                        System.out.println("Veuillez mettre la valeur a convertir");
                     int b = sc.nextInt();
-                        res=Monconvertisseur.CelciusVersFarenheit(a);
+                        res=Monconvertisseur.CelciusVersFarenheit(b);
                                                         System.out.println(res);}
                 else {
                        System.out.println("Veuillez mettre la valeur a convertir");
                     int b = sc.nextInt();
-                        res=Monconvertisseur.CelciusVersFarenheit(a);
+                        res=Monconvertisseur.CelciusVersFarenheit(b);
                                                         System.out.println(res);}
 
 
@@ -69,5 +69,5 @@ public class TP_ConvertisseurObJET_Pommarel {
                         }
     
     
-            3
+            
 
