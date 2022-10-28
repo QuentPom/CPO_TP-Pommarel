@@ -12,6 +12,12 @@ package com.mycompany.t_manip_pommarel;
 public class T_manip_Pommarel {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+Tartiflette assiette1 = new Tartiflette(500) ;
+Tartiflette assiette2 = new Tartiflette(700) ;  
+    Tartiflette assiette3 = assiette2 ; 
+    System.out.println("nb de calories de Assiette 2 : " +
+assiette2.nbCalories) ;
+System.out.println("nb de calories de Assiette 3 : " +
+assiette3.nbCalories) ;
+}
 }
