@@ -11,15 +11,19 @@ package com.mycompany.tp2_relation1_pommarel;
 public class Voiture {
     String marq;
     String model;
-    int nbvoit;
+    int nbVoitures;
+Personne Proprietaire ;
     public Voiture (String marque, String modele, int nbvoiture) {
         marq=marque;
         model=modele;
-        nbvoit=nbvoiture;
+        nbVoitures=nbvoiture;
+        Proprietaire = null;
+
+
     }
 @Override
 public String toString() {
-    return model+" "+ marq+" "+nbvoit;
+    return model+" "+ marq+" "+nbVoitures;
     
     
 }
