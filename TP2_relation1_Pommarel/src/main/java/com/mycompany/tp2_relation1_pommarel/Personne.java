@@ -26,4 +26,22 @@ public String toString() {
        
 
 }
+    
+    public boolean ajouter_voiture(Voiture voiture_a_ajouter) {     
+        
+   if (nbVoitures < 3 & voiture_a_ajouter.Proprietaire == null){      //On verifie que il a moin de 3 voitures et que la voiture n'est pas volé
+            
+     for(int i = 0; i < 3; i ++){      
+          if(liste_voitures[i] == null){    //On parcours le tableau de la liste de voitures pour pouvoir ajouter la voiture dans la case vide
+             liste_voitures[i] = voiture_a_ajouter;
+             nbVoitures ++;
+             voiture_a_ajouter.Proprietaire = this;
+                    return true;       }
+            } 
+        }
+        return false;
+    
+    
+}
+
 }
