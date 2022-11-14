@@ -19,7 +19,14 @@ public class TP3_Pommarel {
         System.out.println(arme1.getNiveau_attaque());
         
         
-
+    Baton baton1 =new Baton("Excalibur",7,5);
+    System.out.println(baton1);
+        Baton baton2 =new Baton("Durandal",4,7);
+    System.out.println(baton2);
+    Epée epée1=new Epée("Chêne",4,5);
+    System.out.println(epée1);
+Epée epée2=new Epée("Chêne",5,6);
+    System.out.println(epée2);
 
     }
 
