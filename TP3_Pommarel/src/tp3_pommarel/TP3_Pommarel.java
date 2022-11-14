@@ -16,7 +16,10 @@ public class TP3_Pommarel {
     public static void main(String[] args) {
         // TODO code application logic here
         Arme arme1 = new Arme("excalibur", 1);
-        System.out.println(arme1);
+        System.out.println(arme1.getNiveau_attaque());
+        
+        
+
 
     }
 

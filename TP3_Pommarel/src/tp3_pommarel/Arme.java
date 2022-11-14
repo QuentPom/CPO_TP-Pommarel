@@ -12,10 +12,14 @@ package tp3_pommarel;
 public class Arme {
     String nom;
     private int niveau_attaque;
+      
+               
     public Arme(String nomArme,int niv_att){
         nom=nomArme;
+        if(niv_att<100&&niv_att>0){
         niveau_attaque=niv_att;
-               
+      
+    }
     }
 
     public int getNiveau_attaque() {
