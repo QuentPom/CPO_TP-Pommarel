@@ -4,6 +4,9 @@
  */
 package tp3_pommarel;
 
+import Arme.Baton;
+import Arme.Arme;
+import Arme.Epée;
 import java.util.ArrayList;
 
 /**
