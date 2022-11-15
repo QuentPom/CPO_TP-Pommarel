@@ -4,6 +4,9 @@
  */
 package tp3_pommarel;
 
+import Personnage.Personnage;
+import Personnage.Guerrier;
+import Personnage.Magicien;
 import Arme.Baton;
 import Arme.Arme;
 import Arme.Epée;
@@ -38,6 +41,17 @@ Epée epée2=new Epée("Chêne",5,6);
     tab.add(epée1);
     tab.add(epée2);
 System.out.println(tab);
-    
-        }
+Magicien gandalf = new Magicien("Gandalf",65,true);
+Magicien garcimore = new Magicien("garcimore",44,false);
+Guerrier Conan = new Guerrier("conan",78,false);
+Guerrier lanister = new Guerrier("lanister",45,true);
+    ArrayList<Personnage> tab1  = new ArrayList<Personnage>();
+    tab1.add(gandalf);
+    tab1.add(garcimore);
+    tab1.add(Conan);
+    tab1.add(lanister);
+System.out.println(tab1);
+
+    }
 }
+
