@@ -16,7 +16,7 @@ public class Personnage {
     private int niveau_vie;
     public Personnage(String nom_perso,int niv_vie){
         nom=nom_perso;
-        if (niv_vie<100&&niv_vie>100){
+        if (niv_vie>0){
         niveau_vie=niv_vie;
         }
     }
@@ -40,4 +40,5 @@ ArrayList<Arme> tabarme = new ArrayList<Arme>();
             }
         }
       }
+      
 }
