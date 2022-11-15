@@ -4,6 +4,8 @@
  */
 package tp3_pommarel;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author quent
@@ -27,7 +29,12 @@ public class TP3_Pommarel {
     System.out.println(epée1);
 Epée epée2=new Epée("Chêne",5,6);
     System.out.println(epée2);
-
-    }
-
+    ArrayList<Arme> tab = new ArrayList<Arme>();
+    tab.add(baton1);
+    tab.add(baton2);
+    tab.add(epée1);
+    tab.add(epée2);
+System.out.println(tab);
+    
+        }
 }
