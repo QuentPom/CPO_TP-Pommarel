@@ -9,5 +9,20 @@ package tp3_pommarel;
  * @author quent
  */
 public class Personnage {
-    
+    String nom;
+    private int niveau_vie;
+    public Personnage(String nom_perso,int niv_vie){
+        nom=nom_perso;
+        if (niv_vie<100&&niv_vie>100){
+        niveau_vie=niv_vie;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Personnage{" + "nom=" + nom + ", niveau_vie=" + niveau_vie + '}';
+    }
+
+   
+      
 }
